@@ -13,15 +13,15 @@
     <remove-project name="platform/system/bt" />
     <remove-project name="platform/system/media" />
     
-    <project path="external/liblhdc" name="external_liblhdc.git" revision="master" remote="origin" />
-    <project path="hardware/libhardware" name="hardware_libhardware.git" revision="master" remote="origin" />
-    <project path="frameworks/av/" name="frameworks_av.git" revision="master" remote="origin" />
-    <project path="frameworks/base/" name="frameworks_base.git" revision="master" remote="origin" />
-    <project path="hardware/interfaces/" name="hardware_interfaces.git" revision="master" remote="origin" />
-    <project path="packages/apps/Bluetooth/" name="packages_apps_bluetooth.git" revision="master" remote="origin" />
-    <project path="packages/apps/Settings/" name="packages_apps_settings.git" revision="master" remote="origin" />
-    <project path="system/bt/" name="system_bt.git" revision="master" remote="origin" />
-    <project path="system/media/" name="system_media.git" revision="master" remote="origin" />
+    <project path="external/liblhdc" name="external_liblhdc.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="hardware/libhardware" name="hardware_libhardware.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="frameworks/av/" name="frameworks_av.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="frameworks/base/" name="frameworks_base.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="hardware/interfaces/" name="hardware_interfaces.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="packages/apps/Bluetooth/" name="packages_apps_bluetooth.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="packages/apps/Settings/" name="packages_apps_settings.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="system/bt/" name="system_bt.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
+    <project path="system/media/" name="system_media.git" revision="refs/tags/aosp-8.0.0_r11" remote="origin" />
     
     <!--<project path="system/bt" name="system_bt" revision="master"/>-->
 </manifest>
