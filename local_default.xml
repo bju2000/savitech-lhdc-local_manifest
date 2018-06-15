@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="ssh://savitech@10.2.1.50/share/git/aosp/" name="origin"/>
-    <remote fetch="https://gitlab.com/savitech-lhdc/" name="gitlab"/> 
+    <remote fetch="git@gitlab.com:savitech-lhdc/" name="gitlab"/>
+    <!--<default remote="origin" revision="master" sync-j="4"/>-->
+    
     
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
